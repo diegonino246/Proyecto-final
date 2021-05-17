@@ -1,0 +1,95 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+body{
+    background-image: url(../img/coffee-5417663_960_720\ 1.png);
+}
+a{
+    color: black;
+}
+
+.parte2{
+    margin-top: 15px;
+}
+.panel.panel-default.text-center{
+    border-radius: 25px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+    max-width: 1000px;margin: auto;
+    background-color: #85632F;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: #48622E;
+}
+a{
+    font-size: 20px;
+}
+
+.contenedores{
+    padding: 30px;
+    background-image: url(../img/fondo-cafe-1.jpg);
+    border-color: white;
+
+}footer{
+    margin: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+img{
+    border-radius: 4px;
+    border: none;
+    width: auto;
+    color: white;
+    padding: 6px 16px;
+    margin: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+.img1{
+    backdrop-filter: none;
+}
+h2{
+    color: white;
+    background-color: #85632F;
+    box-shadow: 5px 5px 5px #404040;
+    border-radius: 45%;
+}
+p{
+    color: white;
+    background-color: #85632F;
+    box-shadow: 5px 5px 5px #404040;
+    backdrop-filter: blur(10px);
+}
+.jumbotron{
+    background-color: #1F0F02;
+    height: 230px;
+}
+.panel-body{
+    backdrop-filter: blur(10px);
+}
+a img{
+    background-color: #1F0F02;
+    backdrop-filter: none;
+    color: white;
+    box-shadow: 5px 5px 5px #404040;
+}
+strong{
+    font-size: x-large;
+    color: black;
+}

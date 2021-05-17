@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reenie Beanie', cursive;
+
+}
+#nosotros{
+    background-image: url(../img/FONDO-CARRO_1.png);
+    box-shadow: rgb(117, 108, 73);
+    image-resolution: 1231px;
+
+}
+.contenedor1{
+    height: 900px;
+    width: 45%;
+    color: black;
+    margin-left: 20%;
+
+}
+button{
+    height: 43px;
+    border-radius: 25px;
+    text-align: unset;
+    width: auto;
+}
+h2{
+    padding-top: 50%;
+    text-align: center;
+    opacity: none;
+
+}
+p{
+    position: absolute;
+    text-align: center;
+    width: 685px;
+    height: auto;
+    left: 236px;
+    top: 253px;    
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: white;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+}
+header{
+    background-color: #4C72AC;
+}
+.menu{
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+    max-width: 100%;margin: auto;
+    background-color: #5DAEF5;
+    position: absolute;
+    padding-left: 25px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    padding-left: 50px;
+
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background-color: #48622E;
+}
+a{
+    font-size: 20px;
+}
+.regreso{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1327px;
+}
+
+p{
+    color: white;
+    background-color: #B34A6C;
+    box-shadow: 5px 5px 5px #404040;
+    backdrop-filter: blur(10px);
+}
+.jumbtron{
+    height: 230px;
+    background-color: #BE9B84;
+}
+.panel-body{
+    backdrop-filter: blur(10px);
+}
+a img{
+    background-color: #6f4f28;
+    backdrop-filter: none;
+    color: white;
+    box-shadow: 5px 5px 5px #404040;
+}
+h2{
+    height: 230px;
+    background-color: #BE9B84;
+}
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+footer{
+    background: #222;
+    color: #fff;
+    padding: 60px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #b6b6b6;
+}
+.items p{
+    margin: 1.2em 0;
+}
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #383535;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    bottom: -4px;
+    left: 0;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+}
+
+}
